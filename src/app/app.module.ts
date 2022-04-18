@@ -9,10 +9,15 @@ import { AppComponent } from './app.component';
 // import { ListadoComponent } from './heroes/listado/listado.component';
 import { HeroesModule } from './heroes/heroes.module';
 import { contadorModule } from './contador/contador/Contador.Module';
+import { DBZModule } from './dbz/dbz.module';
+// import { PersonajesComponent } from './dbz/personajes/personajes.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
+    // PersonajesComponent
     //ContadorComponent,
     // HeroeComponent,
     // ListadoComponent
@@ -21,7 +26,8 @@ import { contadorModule } from './contador/contador/Contador.Module';
     BrowserModule,
     AppRoutingModule,
     HeroesModule,
-    contadorModule
+    contadorModule,
+    DBZModule
   ],
   providers: [],
   bootstrap: [AppComponent]
